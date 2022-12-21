@@ -1,0 +1,7 @@
+# Android studio 新版本打开老版本Android studio.
+
+![image-20221201052303010](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20221201052303010.png)
+
+solution:https://blog.csdn.net/easyboot/article/details/117923734?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166984307416782429796219%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166984307416782429796219&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-117923734-null-null.142^v67^control,201^v3^add_ask,213^v2^t3_control2&utm_term=%20This%20is%20an%20unexpected%20error.%20Please%20file%20a%20bug%20containing%20the%20idea.log%20file.&spm=1018.2226.3001.4187
+
+删除maven：https://blog.csdn.net/z2464342708m/article/details/51513128?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166984451416800215080717%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166984451416800215080717&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-51513128-null-null.142^v67^control,201^v3^add_ask,213^v2^t3_control2&utm_term=Unable%20to%20load%20class%20org.gradle.api.publication.maven.internal.MavenPomMetaInfoProvider.%20%20This%20is%20an%20unexpected%20error.%20Please%20file%20a%20bug%20containing%20the%20idea.log%20file.&spm=1018.2226.3001.4187

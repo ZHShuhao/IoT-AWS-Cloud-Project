@@ -1,0 +1,22 @@
+ESP32如何连接AWS
+Web Link：
+https://blog.csdn.net/wowocpp/article/details/83544117#comments
+
+PlatformIO使用Arduino[Ticker]库（ESP8266） 查看安装库如何使用
+https://blog.csdn.net/liguichuan/article/details/122372094?ops_request_misc=&request_id=&biz_id=102&utm_term=platformio%20%E6%89%93%E5%BC%80%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-122372094.142^v67^control,201^v3^add_ask,213^v2^t3_control2&spm=1018.2226.3001.4187
+
+手机移动设备安装证书
+1. 在AWS中下载设备证书
+2.使用openssl命令将.crt证书转换为.p12证书
+
+链接：
+https://blog.csdn.net/u010801696/article/details/86546191
+https://ai-science-ape.blog.csdn.net/article/details/119594444?spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-4-119594444-blog-8676330.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-4-119594444-blog-8676330.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=5
+
+
+命令：openssl pkcs12 -export -clcerts -in client.crt -inkey client.key -out client.p12
+.crt    .key  .p12是具体的文件证书名字
+
+
+openssl
+https://www.herongyang.com/Cryptography/OpenSSL-as-CA-Generating-CA-Private-Key.html

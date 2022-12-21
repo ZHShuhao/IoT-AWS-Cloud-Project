@@ -1,0 +1,8 @@
+硬件开发步骤
+1. 确定开发工具IDE。VScode Platform.io 或者是Arduino IDE
+2. 确定开发板的型号，寻找对应开发板的开发和配置资料
+一般情况是知道板子型号后和IDE中的库对应。然后可以自动连接起来。
+3. 寻找开发手册，了解板子上边的引脚，按钮信息。熟悉板子的功能。
+
+
+问题1：Arduio IDE里seclect borad 中没有想要的板子的话，需要去Tool里的borad manager中下载对应的板子型号。
