@@ -1,7 +1,7 @@
 # ioT_Project
 This is a ioT project about design of DHT22 Temperature and humidity, AWS Cloud and Webpage
 
-## Main project code is in the file named "iot-project"
+## Main project code is in the file named "iot_project"
 
 # Project background
 Internet of Things (IoT) refers to the real-time collection of any object or process that needs monitoring, connection and interaction through various devices and technologies such as various information sensors.As one of the low-power wide-area network communication technologies, LoRa can achieve characteristics that cannot be realized by traditional wireless sensor networks—at the same time, it has the advantages of long transmission distance and low power consumption.During the cold chain transportation, incorrect temperature can cause very serious financial loss. With the development of Internet of Things technology. The data of the current environment can be obtained in real time and uploaded to the cloud for analysis and monitoring.
