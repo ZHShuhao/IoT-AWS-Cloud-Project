@@ -46,10 +46,14 @@ Implementation 2 implements three end nodes that connect to AWS directly and ind
 
 
 # How devices connect to the AWS
-If want devices to join the AWS, every device needs a certificate from AWS. Now we will config the certificate for devices.
+If want devices to join the AWS, every device needs a certificate from AWS. Now we will config the certificate for devices. Download the CA root certificate, public key,and private key. For the ESP32 development board, we need to use code to config the certificate.
 
+Download the certificate from the AWS web page.
 <img width="657" alt="image" src="https://user-images.githubusercontent.com/89632568/211411873-2053d41a-7de3-4026-8df3-b068d4be3cfc.png">
 <img width="427" alt="image" src="https://user-images.githubusercontent.com/89632568/211411919-595ee635-2a33-47c1-b170-9420f34b3764.png">
+
+Config certificate for ESP32 development board.
+<img width="775" alt="image" src="https://user-images.githubusercontent.com/89632568/211416221-75769527-ada9-492a-a831-2174058192e2.png">
 
 # Show & Analyz data
 Data will be sent to AWS and stored in the MySQL database. Users can choose the way in which they like to observe the temperature and humidity data, at the same time, users can also observe time-to-time changes of data by browsing the line chart on the web page.
