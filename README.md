@@ -1,5 +1,5 @@
 # ioT_Project
-This is a ioT project about design of DHT22 Temperature and humidity, AWS Cloud and Webpage
+Intelligent IoT system based on Amazon Cloud. The system collects environmental data through the DHT22 temperature and humidity sensor, and sends the collected data to the ESP32 LoRa smart terminal, and the smart terminal sends the data to the AWS cloud and MySQL database through HTTP and MQTT network protocols. The cloud will analyze the collected data and display it to the user through the Webpage
 
 ## Main project code is in the file named "iot_project"
 
